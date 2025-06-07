@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeline Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="back-button-container">
+            <a href="index.html" class="back-button">← Back to Home</a>
+        </div>
+        <section id="pipeline">
+            <div class="pipeline-container">
+                <!-- Mobile/Tablet Header (visible only on small screens) -->
+                <div class="mobile-header">
+                    <div id="pipeline-header-mobile">
+                        <img id="pipeline-image-mobile" src="" alt="Pipeline Image" class="pipeline-image">
+                        <h1 id="pipeline-title-mobile"></h1>
+                        <p id="pipeline-description-mobile" class="pipeline-description"></p>
+                    </div>
+                </div>
+
+                <div class="pipeline-layout">
+                    <div class="pipeline-content">
+                        <!-- Tech level sections will be dynamically inserted here -->
+                    </div>
+                    <!-- Desktop Sidebar (visible only on large screens) -->
+                    <aside class="pipeline-sidebar">
+                        <div id="pipeline-header-desktop">
+                            <img id="pipeline-image-desktop" src="" alt="Pipeline Image" class="pipeline-image">
+                            <h1 id="pipeline-title-desktop"></h1>
+                            <p id="pipeline-description-desktop" class="pipeline-description"></p>
+                        </div>
+                    </aside>
+                </div>
+                <div class="recommendations-container">
+                    <!-- Recommendations will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/pipeline.js" type="module"></script>
+</body>
+</html>
